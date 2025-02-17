@@ -4,3 +4,8 @@ pipeline:
   projectIdentifier: default_project
   orgIdentifier: default
   tags: {}
+  ---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dreame29/repositories/HarnessSampleSite
+    - /bin/cp -R images $DEPLOYPATH
