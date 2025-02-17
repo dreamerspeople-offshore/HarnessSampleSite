@@ -1,1 +1,6 @@
-
+pipeline:
+  name: HarnessSamplePipe
+  identifier: HarnessSamplePipe
+  projectIdentifier: default_project
+  orgIdentifier: default
+  tags: {}
