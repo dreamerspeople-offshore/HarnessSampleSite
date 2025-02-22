@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+      - export DEPLOYPATH=/home/dream29/public_html/HarnessSampleSite
+      - /bin/cp index.html $DEPLOYPATH
+      - /bin/cp style.css $DEPLOYPATH
